@@ -1,0 +1,202 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html { 
+    font-size: 80%; 
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+ul{
+    position: sticky;
+    top: 0px;
+    background-color: #1a63b665;
+    font-size: 3.5rem;
+}
+
+.menu{
+    color: azure; 
+}
+
+/* HEADER */
+.titulo{
+    background-image: url(../imagenes/joaquin-sabina-frases-social.jpg);
+    background-size: contain;
+    background-position: right;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-color:#1aa5cfd0;
+    margin-top: 10px;
+    margin-left: 5px;
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.45);
+    
+}
+
+
+.titulo h1{
+    color: aqua;
+    font-size: 5rem;
+    text-align: left;
+    padding: 75px;
+    text-shadow: 3px 3px 10px rgb(7, 19, 19);
+    text-decoration: underline;
+}
+
+.discografia h1{
+    text-align: center;
+}
+
+/* H2 de INDEX*/ 
+.titulo h2{
+    font-size: 1;
+    padding: 45px;
+}
+
+/* SUBTITULO de INDEX*/
+.subtitulo{
+    margin-top: 20px;
+    margin-left: 5px;
+    background-color: dimgray;
+    color: white;
+}
+
+/* footer */
+footer{
+    background-color: #088395;
+    color: black;
+}
+
+ /* Corresponde a CONTACTO*/
+section label{
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* FORM de CONTACTO */
+main form div{
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer DE INDEX */
+.logoF img{
+    background-image: url(../imagenes/logo\ redes.png);
+    height: 100px;
+}
+
+/* Footer de INDEX, redes sociales*/
+footer h2{
+    font-size: 3rem;
+    text-align: center;
+}
+
+/* MAIN h2 de CONTACTO*/
+main h2{
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+footer{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+/* Footer h2 de INDEX, imagen con los derechos reservados */
+footer section{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* CONTACTO, section, <p> de MENSAJE (RUTA PARA LLEGAR) */
+body p{
+    font-size: 2.5rem;
+}
+
+/* Imagenes de GALERIA*/
+body img{
+    background-image: url(../imagenes/19\ dias\ y\ 500\ noches.jpg);
+    height: 300px;
+    background-size: contain;
+}
+
+/*Section de DISCOGRAFIA */
+.discografia{
+    background-image: url(../imagenes/banner\ contacto.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+.disco{
+    background-color: black;
+    color: white;
+}
+
+.disco p{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+
+/* H1 de CONTACTO */
+.contactanos{
+    background-image: url(../imagenes/banner\ contacto.jpeg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.contacto{
+    background-color: black;
+    color: white;
+}
+
+/* H1 de GALERIA */
+.galeria{
+    background-image: url(../imagenes/banner\ contacto.jpeg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.imgaleria{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+/* Conciertos*/
+.fechas{
+    background-image: url(../imagenes/portada\ concierto.jpg);
+    margin-top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fechas p{
+    color: aliceblue;
+}
+
