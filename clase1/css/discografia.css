@@ -1,0 +1,20 @@
+.discografia {
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+}
+
+.disco {
+  background-color: black;
+  color: white;
+}
+.disco p {
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}/*# sourceMappingURL=discografia.css.map */

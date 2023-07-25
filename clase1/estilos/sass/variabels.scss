@@ -1,0 +1,17 @@
+$negro: #000000;
+$blanco: #ffffff;
+
+
+
+@mixin flex ($justify, $direccion, $align, $size) {
+    justify-content: $justify;
+    flex-direction: $direccion;
+    align-items: $align;
+    background-size: $size;
+}
+
+
+style{
+    display: flex;
+    @include flex(center, row, center, contain);
+}
