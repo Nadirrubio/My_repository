@@ -1,0 +1,46 @@
+.titulo {
+  background-image: url(../imagenes/joaquin-sabina-frases-social.jpg);
+  background-size: contain;
+  background-position: right;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-color: rgba(26, 165, 207, 0.8156862745);
+  margin-top: 10px;
+  margin-left: 5px;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.45);
+}
+.titulo h1 {
+  color: rgb(0, 255, 255);
+  font-size: 5rem;
+  text-align: left;
+  padding: 75px;
+  text-shadow: 3px 3px 10px rgb(7, 19, 19);
+  text-decoration: underline;
+}
+.titulo h2 {
+  font-size: 1;
+  padding: 45px;
+}
+
+.subtitulo {
+  margin-top: 20px;
+  margin-left: 5px;
+  background-color: dimgray;
+  color: white;
+}
+
+footer {
+  background-color: #088395;
+  color: black;
+}
+footer h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+footer img {
+  height: 100px;
+}
+footer section {
+  text-align: center;
+  font-size: 1.5rem;
+}/*# sourceMappingURL=estilos.css.map */
